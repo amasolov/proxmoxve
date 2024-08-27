@@ -1,5 +1,5 @@
 {
-  "name": "Proxmox VE",
+  "name": "Proxmox VE (API Token)",
   "domains": [
     "binary_sensor",
     "button",
