@@ -59,7 +59,8 @@ class ProxmoxClient:
             self._host,
             port=self._port,
             user=user_id,
-            password=self._password,
+            token_name='homeassistant',
+            token_value=self._password,
             verify_ssl=self._verify_ssl,
             timeout=30,
         )
